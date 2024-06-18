@@ -1,0 +1,99 @@
+css
+Copy code
+/* Reset some basic styles */
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-blue-background-with-geometric-forms-image_280879.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    animation: zoom 20s infinite;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    
+}
+
+.container {
+   
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(245, 239, 239, 0.1);
+    border-radius: 10px;
+    width: 150%;
+    max-width: 500px;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #dfbf31;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #dfbf31;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 2px solid #07437b;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #fcfcfc;
+    box-shadow: 0 0 5px rgba(0,123,255,0.25);
+    outline: none;
+}
+
+button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #dfbf31;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #301b28;
+    box-shadow: 0 4px 8px rgba(26, 173, 122, 0.2);
+}
+
+button:active {
+    background-color: #00853e;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.25);
+}

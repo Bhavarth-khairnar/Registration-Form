@@ -1,0 +1,36 @@
+{
+  "name": "registration-form",
+  "version": "1.0.0",
+  "description": "A simple registration form",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "\"registration\"",
+    "\"form\"",
+    "\"user\"",
+    "\"signup\"",
+    "\"authentication\"",
+    "\"node\"",
+    "\"express\"",
+    "\"mongoose\"",
+    "\"mongodb\"",
+    "\"api\"",
+    "\"backend\"",
+    "\"validation\""
+  ],
+  "author": "Bhavarth Khairnar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "code"
+  },
+  "devDependencies": {}
+}
